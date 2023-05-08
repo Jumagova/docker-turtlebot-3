@@ -17,5 +17,5 @@ RUN mkdir ~/catkin_ws && \
 
 ENV TURTLEBOT3_MODEL=burger
 
-CMD [ "/bin/bash", "-c", "cd ~/catkin_ws && catkin_make && source ~/catkin_ws/devel/setup.bash && roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch" ]
+CMD [ "/bin/bash", "-c", "cd ~/catkin_ws && catkin_make && source ~/catkin_ws/devel/setup.bash && roslaunch turtlebot3_gazebo turtlebot3_house.launch" ]
 # CMD ["bash"]
