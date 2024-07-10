@@ -1,8 +1,0 @@
-#bin/bash
-
-#For development
-# rocker --nvidia --x11 --volume ${PWD}/simulation_world:/root/ros_magni_ws/simulation_world --volume /dev/dri -- docker_ubiquity_office:latest
-
-#For Production
-rocker --nvidia --x11  --volume /dev/dri -- docker_turtlebot3_simulations:latest
-
